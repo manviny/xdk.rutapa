@@ -1,0 +1,68 @@
+/* Menú con imagen de fondo (o color) */
+
+body, h1{
+	font-family: 'Abel', sans-serif;
+}
+
+.custom{
+	 
+	background: black;
+	
+	
+	
+}
+
+.menulista .item{
+	background-color:transparent;
+	border:none;
+	color:white;
+	
+}
+
+
+.menulista .item-complex .item-content, .dark .item-radio .item-content{
+	background-color:transparent;
+} 
+
+.bar.bar-light{
+	background: black;
+	
+
+}
+
+.ayto{
+	background: 
+	linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)),
+	url(../img/ayuntamiento.jpg) no-repeat center center fixed !important; 
+	
+}
+
+.clasificacion{
+	background: 
+	linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)),
+	url(../img/clasificacion1.jpg) no-repeat center center fixed !important; 
+	
+}
+
+.mapa{
+	background: 
+	linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)),
+	url(../img/mapa.jpg) no-repeat center center fixed !important; 
+
+}
+
+hr.hrorange{
+	border-color:#F77F31;
+	width: 75%;
+}
+
+hr.hrgreen{
+	border-color:#bff000;
+	width: 75%;
+}
+
+hr.hrblue{
+	border-color:#46c5f0;
+	width: 75%;
+}
+
